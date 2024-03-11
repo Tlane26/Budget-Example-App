@@ -11,7 +11,10 @@ import SwiftUI
 struct Budget_SwiftDataApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationStack{
+                BudgetListScreen()
+            }
         }
+        .modelContainer(for: Budget.self)
     }
 }
