@@ -16,6 +16,7 @@
 		1A88B5C22B9F86EB00499B9F /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A88B5C12B9F86EB00499B9F /* StringExtension.swift */; };
 		1A88B5C42BA09DE600499B9F /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A88B5C32BA09DE600499B9F /* Transaction.swift */; };
 		1A88B5C62BA09FA800499B9F /* BudgetDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A88B5C52BA09FA800499B9F /* BudgetDetailScreen.swift */; };
+		1A88B5C82BA0B22D00499B9F /* PreviewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A88B5C72BA0B22D00499B9F /* PreviewContainer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		1A88B5C12B9F86EB00499B9F /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 		1A88B5C32BA09DE600499B9F /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
 		1A88B5C52BA09FA800499B9F /* BudgetDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetDetailScreen.swift; sourceTree = "<group>"; };
+		1A88B5C72BA0B22D00499B9F /* PreviewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewContainer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				1A88B5B32B9F853300499B9F /* Preview Assets.xcassets */,
+				1A88B5C72BA0B22D00499B9F /* PreviewContainer.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 				1A88B5C22B9F86EB00499B9F /* StringExtension.swift in Sources */,
 				1A88B5C62BA09FA800499B9F /* BudgetDetailScreen.swift in Sources */,
 				1A88B5BF2B9F858400499B9F /* Budget.swift in Sources */,
+				1A88B5C82BA0B22D00499B9F /* PreviewContainer.swift in Sources */,
 				1A88B5AD2B9F853200499B9F /* Budget_SwiftDataApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

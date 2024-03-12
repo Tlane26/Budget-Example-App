@@ -54,8 +54,18 @@ struct BudgetDetailScreen: View {
     }
 }
 
-/*
- #Preview {
- BudgetDetailScreen()
+struct BudgetDetailConteinerView: View{
+    @Query private var budgets: [Budget]
+    
+    var body: some View {
+        NavigationStack{
+            BudgetDetailScreen(budget: budgets[0])
+        }
+    }
+}
+
+ #Preview { @MainActor in
+     BudgetDetailConteinerView()
+         .modelContainer(previewContainer)
  }
- */
+ 
