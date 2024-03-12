@@ -42,17 +42,22 @@ struct BudgetListScreen: View {
             
             Section("Budgets"){
                 List(budgets){ budget in
-                    HStack{
-                        Text(budget.name)
-                        Spacer()
-                        Text(budget.limit, format: .currency(code: Locale.current.currency?.identifier ?? "USD"))
-                    }
                     
+                    NavigationLink(value: budget) {
+                        HStack{
+                            Text(budget.name)
+                            Spacer()
+                            Text(budget.limit, format: .currency(code: Locale.current.currency?.identifier ?? "USD"))
+                        }
+                    }
                 }
             }
             
         }
         .navigationTitle("Budgets")
+        .navigationDestination(for: Budget.self) { budget in
+            BudgetDetailScreen(budget: budget)
+        }
     }
 }
 

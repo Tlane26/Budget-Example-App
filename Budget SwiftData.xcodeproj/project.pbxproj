@@ -14,6 +14,8 @@
 		1A88B5BC2B9F855900499B9F /* BudgetListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A88B5BB2B9F855900499B9F /* BudgetListScreen.swift */; };
 		1A88B5BF2B9F858400499B9F /* Budget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A88B5BE2B9F858400499B9F /* Budget.swift */; };
 		1A88B5C22B9F86EB00499B9F /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A88B5C12B9F86EB00499B9F /* StringExtension.swift */; };
+		1A88B5C42BA09DE600499B9F /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A88B5C32BA09DE600499B9F /* Transaction.swift */; };
+		1A88B5C62BA09FA800499B9F /* BudgetDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A88B5C52BA09FA800499B9F /* BudgetDetailScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		1A88B5BB2B9F855900499B9F /* BudgetListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetListScreen.swift; sourceTree = "<group>"; };
 		1A88B5BE2B9F858400499B9F /* Budget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Budget.swift; sourceTree = "<group>"; };
 		1A88B5C12B9F86EB00499B9F /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		1A88B5C32BA09DE600499B9F /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		1A88B5C52BA09FA800499B9F /* BudgetDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetDetailScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				1A88B5BB2B9F855900499B9F /* BudgetListScreen.swift */,
+				1A88B5C52BA09FA800499B9F /* BudgetDetailScreen.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -88,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				1A88B5BE2B9F858400499B9F /* Budget.swift */,
+				1A88B5C32BA09DE600499B9F /* Transaction.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -172,7 +178,9 @@
 			files = (
 				1A88B5BC2B9F855900499B9F /* BudgetListScreen.swift in Sources */,
 				1A88B5AF2B9F853200499B9F /* ContentView.swift in Sources */,
+				1A88B5C42BA09DE600499B9F /* Transaction.swift in Sources */,
 				1A88B5C22B9F86EB00499B9F /* StringExtension.swift in Sources */,
+				1A88B5C62BA09FA800499B9F /* BudgetDetailScreen.swift in Sources */,
 				1A88B5BF2B9F858400499B9F /* Budget.swift in Sources */,
 				1A88B5AD2B9F853200499B9F /* Budget_SwiftDataApp.swift in Sources */,
 			);
